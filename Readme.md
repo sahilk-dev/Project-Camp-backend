@@ -33,3 +33,14 @@
 node_modules
 .env
 ```
+**Step 3: Auto restart the server using Nodemon**
+```
+npm install --save-dev nodemon
+```
+Next in package.json file make changes
+```
+"scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  }
+```
