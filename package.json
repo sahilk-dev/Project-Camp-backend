@@ -1,0 +1,28 @@
+{
+  "name": "imagifyx",
+  "version": "1.0.0",
+  "description": "An AI text-to-image generator SaaS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahil07git/Imagify.git"
+  },
+  "keywords": [
+    "Imagify",
+    "Backend",
+    "Node.js",
+    "Express.js",
+    "API",
+    "ceation"
+  ],
+  "author": "Sahil Kamila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahil07git/Imagify/issues"
+  },
+  "homepage": "https://github.com/sahil07git/Imagify#readme"
+}
