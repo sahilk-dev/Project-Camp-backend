@@ -12,4 +12,24 @@
     "dev": "node index.js"
   },``
 - Add ``"type": "module"`` in package.json file
-- d
+
+**Step 2:** Add prettier and git to the code base.
+- Install prettier run the command on terminal ``npm install --save-dev --save-exact prettier``
+- And ``npx prettier . --write``
+- Now add these in the file .prettierrc:
+```
+{
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "arrowParens": "always"
+}
+```
+- Create .prettierignore and .gitignore files in the root folder and write:
+```
+node_modules
+.env
+```

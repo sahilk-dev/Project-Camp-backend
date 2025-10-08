@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/sahil07git/Imagify/issues"
   },
-  "homepage": "https://github.com/sahil07git/Imagify#readme"
+  "homepage": "https://github.com/sahil07git/Imagify#readme",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
 }
