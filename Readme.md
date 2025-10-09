@@ -33,7 +33,7 @@
 node_modules
 .env
 ```
-**Step 3: Auto restart the server using Nodemon**
+**Step 3:** Auto restart the server using Nodemon
 ```
 npm install --save-dev nodemon
 ```
@@ -44,3 +44,7 @@ Next in package.json file make changes
     "start": "node index.js"
   }
 ```
+
+**Step 4:** Add dot env files in backend (for hiding secrets)
+- install dot env in your project by running npm i dot-env in terminal.
+- And create a .env file on the root directory of project.
